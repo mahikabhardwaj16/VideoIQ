@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Tube AI API
+# 🎬 VideoIQ
 
 ### Ask questions about YouTube videos without watching the entire video.
 
@@ -19,18 +19,18 @@
 
 <br>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ytsubhadip/Tube-AI-API?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/ytsubhadip/Tube-AI-API?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/ytsubhadip/Tube-AI-API?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/ytsubhadip/Tube-AI-API?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/mahikabhardwaj16/VIDEOIQ?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/mahikabhardwaj16/VIDEOIQ?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/mahikabhardwaj16/VIDEOIQ?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/mahikabhardwaj16/VIDEOIQ?style=flat-square)
 
 </div>
 
 ---
 
-## ✨ What is Tube AI?
+## ✨ What is VideoIQ?
 
-**Tube AI API** is a Retrieval-Augmented Generation (RAG) backend that allows users to ask natural-language questions about YouTube videos.
+**VideoIQ** is a Retrieval-Augmented Generation (RAG) backend that allows users to ask natural-language questions about YouTube videos.
 
 Instead of watching a long video from beginning to end:
 
@@ -61,7 +61,7 @@ Instead of watching a long video from beginning to end:
 
 The goal is simple:
 
-> **Give Tube AI a YouTube video, then ask questions about it.**
+> **Give VideoIQ a YouTube video, then ask questions about it.**
 
 ---
 
@@ -84,7 +84,7 @@ The goal is simple:
 
 ## 🧠 How RAG Works
 
-Tube AI follows a two-stage pipeline.
+VideoIQ follows a two-stage pipeline.
 
 ### 1. 📥 Ingestion
 
@@ -132,7 +132,7 @@ When the user asks:
 "What did the speaker say about machine learning?"
 ```
 
-Tube AI:
+VideoIQ:
 
 ```text
 User Question
@@ -203,7 +203,7 @@ flowchart TD
 # 📂 Project Structure
 
 ```text
-Tube-AI-API/
+VIDEOIQ/
 │
 ├── 📁 services/
 │   ├── 📝 chunk_extractor.py
@@ -231,9 +231,9 @@ Tube-AI-API/
 ## 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/ytsubhadip/Tube-AI-API.git
+git clone https://github.com/mahikabhardwaj16/VIDEOIQ.git
 
-cd Tube-AI-API
+cd VIDEOIQ
 ```
 
 ---
@@ -293,7 +293,7 @@ chroma_db/
 
 # 🦙 Install Ollama
 
-Tube AI currently uses Ollama as the local LLM runtime.
+VideoIQ currently uses Ollama as the local LLM runtime.
 
 Install Ollama and download the model:
 
@@ -484,7 +484,7 @@ POST /query
 }
 ```
 
-Tube AI retrieves the most semantically relevant transcript chunks and sends those chunks to Llama 3.2.
+VideoIQ retrieves the most semantically relevant transcript chunks and sends those chunks to Llama 3.2.
 
 ---
 
@@ -583,7 +583,7 @@ The retrieved chunks become the context for the LLM.
 
 # 🤖 LLM Pipeline
 
-Tube AI uses:
+VideoIQ uses:
 
 ```text
 Ollama
@@ -737,7 +737,7 @@ to interactively test the API.
 
 > 🚧 **Active Development**
 
-Tube AI API is currently a learning and development project focused on building a practical YouTube-based RAG system using modern AI infrastructure.
+VideoIQ is currently a learning and development project focused on building a practical YouTube-based RAG system using modern AI infrastructure.
 
 The architecture is intentionally modular so individual components can later be replaced or upgraded.
 
@@ -779,7 +779,7 @@ Every contribution helps the project grow.
 
 <div align="center">
 
-## 🎬 Tube AI
+## 🎬 VideoIQ
 
 ### Turn long videos into searchable knowledge.
 
